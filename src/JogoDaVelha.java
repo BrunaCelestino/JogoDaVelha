@@ -29,7 +29,7 @@ public class JogoDaVelha {
         Scanner jogada = new Scanner(System.in);
 
         while (!vencedor || !empate) {
-            //Jogador1 faz sua jogada
+
             System.out.println(nomePrimeiroJogador + ", escolha e digite o número de uma posição vazia:");
             char posicaoJogador1 = jogada.next().charAt(0);
 
@@ -46,7 +46,7 @@ public class JogoDaVelha {
             }
 
             if (empate) break;
-            //Jogador2 faz sua jogada
+
             System.out.println(nomeSegundoJogador + ", escolha e digite o número de uma posição vazia:");
             char posicaoJogador2 = jogada.next().charAt(0);
 
